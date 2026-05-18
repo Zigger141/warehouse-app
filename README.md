@@ -22,16 +22,21 @@
 - **1.** Открыть Developer Command Prompt VS 2022
 - **2.** Открыть в терминале папку проекта
 - **3.** Вписать: cl /std:c++17 /EHsc /Fe:warehouse_app.exe src\main.cpp src\Warehouse.cpp src\FileIO.cpp src\Menu.cpp
+* **4.** Запустить warehouse_app.exe
 
 ## Структура проекта(после компиляции):
 - WarehouseApp/
 - ├── src/
 - │   ├── main.cpp
 - │   ├── Warehouse.h/.cpp
-- │   ├── 
+- │   ├── FileIO.h / FileIO.cpp
+- │   └── Menu.h / Menu.cpp
 - ├── data/
 - │   └── products.txt
 - ├── FileIO.obj
+- ├── screenshots/
+- │   ├── Menu.png
+- │   └── dobavlenyetovara.png
 - ├── main.obj
 - ├── Menu.obj
 - ├── Warehouse.obj
@@ -39,5 +44,5 @@
 - └── README.md
 
 ## Скриншоты работы:
-![Меню](screenshots/menu.png)
-![Добавление товара](screenshots/add.png)
+![Меню](screenshots/Menu.png)
+![Добавление товара](screenshots/dobavlenyetovara.png)
